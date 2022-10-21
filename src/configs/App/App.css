@@ -1,0 +1,24 @@
+:root {
+  --pixel-size: 5;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Bit Style'
+}
+body {
+  margin: 0;
+  background-color: #141414;
+}
+@font-face {
+  font-family:'Bit Style';
+  src: local('Bit Style'), url(../../assets/font/edit-undo.brk.ttf) format('truetype');
+}
+.versionNumber{
+  position: fixed;
+  color: #fff;
+  bottom: 0;
+  font-size: 15px;
+  width: 100%;
+  text-align: right;
+  padding-right: 5px;
+}
