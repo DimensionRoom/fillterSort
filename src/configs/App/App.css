@@ -1,17 +1,22 @@
+@import 'antd/dist/antd.css';
+
 :root {
   --pixel-size: 5;
 }
 * {
   box-sizing: border-box;
-  font-family: 'Bit Style'
+  font-family: 'Modern Style'
 }
 body {
   margin: 0;
-  background-color: #141414;
+  background-color: #fff;
 }
 @font-face {
-  font-family:'Bit Style';
-  src: local('Bit Style'), url(../../assets/font/edit-undo.brk.ttf) format('truetype');
+  font-family:'Modern Style';
+  src: local('Modern Style'), url(../../assets/font/Exo2-Light.otf) format('opentype');
+}
+.textCenter{
+  text-align: center;
 }
 .versionNumber{
   position: fixed;

@@ -1,21 +1,18 @@
 import React from "react";
-import "./Loading.css";
-import LoadBarSword from "../../../assets/btn/LoadBarSword";
-
+import { Col, Row,Spin } from "antd";
+import style from "./Loading.module.css";
 export interface Props {
-  loadCurrent:number;
-  loadMax:number;
+  loadCurrent?:number;
+  loadMax?:number;
 }
 
 export default ({loadCurrent,loadMax}:Props) => {
   return (
     <>
-      <div className="loadingContainer">
-        <div className="row justifyContentCenter">
-          <div className="item barContainer">
-            <LoadBarSword className="loadingBar" current={loadCurrent} max={loadMax}/>
-          </div>
-        </div>
+      <div className={`${style.loadingContainer}`}>
+        <Row justify="center">
+         <Spin></Spin>
+        </Row>
       </div>
     </>
   );
