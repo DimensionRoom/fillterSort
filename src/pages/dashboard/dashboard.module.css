@@ -14,3 +14,11 @@
 .topicHeader{
   margin-bottom: 2rem !important;
 }
+.dataView{
+  width: 100%;
+  padding: 50px;
+}
+.dataBox{
+  display: flex;
+  width: 100%;
+}
