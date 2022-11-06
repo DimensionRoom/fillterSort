@@ -146,8 +146,7 @@ export function DashBoard({ ...props }) {
               </div>
             ))}
           </Row>
-        </div>
-        f{" "}
+        </div> 
       </div>
       <div></div>
     </>
